@@ -16,8 +16,11 @@ WORKDIR /usr/src/myapp
 #RUN gcc -o myapp main.c
 RUN make
 
-#check for o fle
+#check for main fle
 RUN ls 
 
+#run main directly
+RUN main
+
 # Run app
-CMD ["./main"]
+#CMD ["./main"]
