@@ -20,4 +20,4 @@ RUN make
 RUN ls 
 
 # Run app
-#CMD ["./myapp"]
+CMD ["./main"]
