@@ -3,7 +3,7 @@
       from within Docker container / GitHub Actions
       workflow */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 int main()
 {
