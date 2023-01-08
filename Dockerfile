@@ -20,7 +20,7 @@ RUN make
 RUN ls 
 
 #run main directly
-RUN main
+#RUN main
 
 # Run app
 #CMD ["./main"]
