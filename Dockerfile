@@ -24,4 +24,4 @@ RUN ls -la && chmod +x main && ls -la
 #RUN main
 
 # Run app
-#CMD ["./main"]
+CMD ["./main"]
