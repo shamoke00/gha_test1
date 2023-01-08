@@ -17,7 +17,8 @@ WORKDIR /usr/src/myapp
 RUN make
 
 #check for main fle
-RUN ls 
+RUN ls -la && chmod +x main && ls -la
+
 
 #run main directly
 #RUN main
